@@ -39,11 +39,18 @@ LOCK TABLES `restaurant` WRITE;
 
 INSERT INTO `restaurant` (`id`, `nom`, `adresse`, `type`, `evaluation`)
 VALUES
-	(4,'test','test','test','3'),
-	(5,'tesst','tesstt','teeest','3'),
-	(6,'tesst','tesstt','teeest','3'),
-	(7,'wwerwer','wrwere','werwerwe','2'),
-	(8,'diwane','diwane','marocaine','4');
+	(1,'La Menara','12 Rue des Fossés 59000 Lille','Cuisine Marocaine','3.6'),
+	(2,' Le Dragon D\'or','192 Rue Solférino, 59000 Lille','Cuisine chinoise','4.2'),
+	(3,'La Fossetta','Rue des Fossés','Cuisine italienne','4.5'),
+	(4,'LA PIAZZA DEL GUSTO','wrwere','werwerwe','2'),
+	(5,'Les Toquées','110 Quai Géry Legrand','Cuisine francaise','4');
+	(6,'HD Diner','12 Rue Royale, 59000 Lille','Cuisine Américaine','4'),
+	(7,'Happy Fox Premium Quality Pizza','189 Rue du Faubourg de Roubaix, 59000 Lille','Cuisine Américaine','4.4'),
+	(8,'Chiquita Bacana','82 Rue de Gand, 59800 Lille','Cuisine brésilienne','4.5'),
+	(9,'Le Djurdjura','28 Boulevard Jean-Baptiste Lebas, 59000 Lille','Cuisine algérienne','4.3'),
+	(10,'Soleil d\'Agadir','5 Rue Princesse, 59800 Lille','Cuisne marocaine','4');
+	(11,'La Babouche','437 Rue Léon Gambetta, 59000 Lille','Cuisine tunisienne','3.1'),
+	
 
 /*!40000 ALTER TABLE `restaurant` ENABLE KEYS */;
 UNLOCK TABLES;
